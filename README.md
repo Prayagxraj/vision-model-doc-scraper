@@ -91,5 +91,4 @@ streamlit run app.py
 
 After running the command the Streamlit interface will open in the browser where the scraping process can be triggered and the results can be viewed
 streamlit run app.py
-
-This launches a small web interface
+ This launches a small web interface that allows users to view the extracted documentation.
