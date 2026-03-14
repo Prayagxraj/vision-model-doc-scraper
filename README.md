@@ -33,28 +33,63 @@ How It Works
    - The extracted content is saved as a .txt file.
 
 
-Installation
+-------------------------- STEPS TO RUN THIS PROJECTT------------------------------------------
 
-Install the required dependencies before running the project:
+## How to Run the Project
 
+Follow these steps to run the project on your system.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Prayagxraj/vision-model-doc-scraper.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd vision-model-doc-scraper
+```
+
+### 3. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+### 4. Activate the virtual environment
+
+Mac:
+
+```bash
+source venv/bin/activate
+```
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+### 5. Install the required dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
+### 6. Run the project
 
-Running the Scraper
-
-CLI Version
-
+```bash
 python main.py
+```
 
-This will:
-- scrape vision model documentation
-- create folders automatically
-- store the scraped content locally.
+### 7. Run the Streamlit application
 
+```bash
+streamlit run app.py
+```
 
-Streamlit Interface 
-
-
+After running the command the Streamlit interface will open in the browser where the scraping process can be triggered and the results can be viewed
 streamlit run app.py
 
 This launches a small web interface where you can:
