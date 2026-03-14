@@ -52,7 +52,8 @@ This will:
 - store the scraped content locally.
 
 
-Streamlit Interface (Optional)
+Streamlit Interface 
+
 
 streamlit run app.py
 
